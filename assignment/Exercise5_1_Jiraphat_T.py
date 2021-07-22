@@ -1,0 +1,6 @@
+a = int(input("Enter a number\n"))
+b = int(input("Enter another number\n"))
+print(f"{a} + {b} = {a + b}")
+print(f"{a} - {b} = {a - b}")
+print(f"{a} * {b} = {a * b}")
+print(f"{a} / {b} = {a / b}")
