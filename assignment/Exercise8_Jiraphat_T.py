@@ -42,6 +42,7 @@ def Chulabook():
                 total += (eachcost * amount)
             print("\t----------------------------")
             print(f"Total :\t\t\t\t\t{total}THB")
+            print("Thank you for ordering our products, Wish you come back to see us again ^-^")
         else:
             print("Wish you come back to see us again ^-^")
                 
