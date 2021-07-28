@@ -1,5 +1,5 @@
 def taxCalculate(totalPrice):
-    result = str(totalPrice+(totalPrice*0.07))+" Baht"
+    result = f"Vat included price: {totalPrice+(totalPrice*0.07)} baht"
     return result
-price = int(input("Your price:"))
-print(taxCalculate(price))
+oriPrice = int(input("Your original price: "))
+print(taxCalculate(oriPrice))
