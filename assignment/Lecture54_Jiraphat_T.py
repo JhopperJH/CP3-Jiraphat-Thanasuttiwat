@@ -31,6 +31,6 @@ if login():
     showMenu()
     process = menuSelect()
     if process == 1:
-        print(vatCalculate(int(input("Please enter your total price : "))))
+        print("Price: ",vatCalculate(int(input("Please enter your total price : "))))
     elif process == 2:
         print(f"Total(Vax included) : {priceCalculate()}")
